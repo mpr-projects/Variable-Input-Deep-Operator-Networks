@@ -1,0 +1,11 @@
+{
+"functions_file": "functions_grid.py",
+"n_samples": 32,
+"seed": 202,
+"output_file":"validation_data_grid.hdf5",
+"domain": [[0, 2], [0, 2]],
+"n_x_points_sim": 26,
+"n_t_points": 21,
+"eps_domain":[0.13, 0.18],
+"T": 0.05
+}

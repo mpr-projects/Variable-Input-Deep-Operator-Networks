@@ -1,0 +1,1 @@
+{"functions_file": "functions_random_input_grid_output.py", "n_samples": 5000, "seed": 710, "output_file": "test_data_random_608_744_input_grid_output_3.hdf5", "domain": [[0, 2], [0, 2]], "n_x_points_sim": 76, "n_x_points_save_range": [608, 744], "n_x_points_output": 76, "n_t_points": 41, "eps_domain": [0.13, 0.18], "T": 0.05, "coord_seed": 7070710}

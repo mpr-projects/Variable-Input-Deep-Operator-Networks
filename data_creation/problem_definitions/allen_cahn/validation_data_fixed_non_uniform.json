@@ -1,0 +1,13 @@
+{
+    "functions_file": "functions_fixed_non_uniform.py",
+    "n_samples": 32,
+    "seed": 202,
+    "coord_seed": 1010101,
+    "output_file": "validation_data_fixed_non_uniform.hdf5",
+    "domain": [[0, 2], [0, 2]],
+    "n_x_points_sim": 76,
+    "n_x_points_save": 676,
+    "n_t_points": 21,
+    "eps_domain":[0.13, 0.18],
+    "T": 0.05
+}

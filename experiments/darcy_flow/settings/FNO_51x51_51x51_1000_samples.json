@@ -1,0 +1,34 @@
+{
+    "rng_seed": 55,
+    "n_runs": 5,
+
+    "training_file": "data/training_data_grid.hdf5",
+    "validation_file": "data/validation_data_grid.hdf5",
+    "test_file": "data/test_data_grid.hdf5",
+
+    "normalizer_inputs": "ZeroOneNormalization",
+    "normalizer_outputs": "ZeroOneNormalization",
+
+    "batch_size_training": 20,
+    "batch_size_test": 100,
+
+    "model_params": {
+	"modes1": 12,
+	"modes2": 12,
+	"width": 32
+    },
+
+    "optimizer_params": {
+	"lr": 1e-3,
+	"weight_decay": 1e-8
+    },
+
+    "lr_scheduler": "StepLR",
+    "lr_scheduler_params": {
+	"step_size": 100,
+	"gamma": 0.5
+    },
+
+    "max_epochs": 500
+}
+

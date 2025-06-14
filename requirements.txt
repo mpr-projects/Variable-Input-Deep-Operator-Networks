@@ -1,0 +1,6 @@
+torch==1.11.0
+h5py==3.6.0
+tensorboard==2.7.0
+matplotlib==3.5.1
+PyQt5==5.15.6
+json==2.0.9

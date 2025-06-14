@@ -1,0 +1,79 @@
+{
+    "rng_seed": 55,
+    "n_runs": 5,
+
+    "training_file": "data/training_data_grid_time_5.hdf5",
+    "format_training_file": "default",
+
+    "validation_file": "data/validation_data_grid_time_5.hdf5",
+    "format_validation_file": "default",
+
+    "test_file": "data/test_data_grid_time_5.hdf5",
+    "format_test_file": "default",
+
+    "normalizer_inputs": "ZeroOneNormalization",
+    "normalizer_outputs": "ZeroOneNormalization",
+
+    "batch_size_training": 50,
+    "batch_size_test": 100,
+
+    "model_params": {
+        "coord_in_dim": 2,
+        "sensor_dim": 1,
+        "encoded_branch_dim": 40,
+        "inner_branch_dim": 128,
+        "coord_out_dim": 2,
+        "p": 100,
+        "n_heads": 4,
+        "branch_neurons_coord_enc": [
+            40,
+            40,
+            40
+        ],
+        "branch_neurons_sensor_enc": [
+            40,
+            40,
+            40
+        ],
+        "branch_neurons_weights": [
+            128,
+            128,
+            128,
+            128
+        ],
+        "branch_neurons_values": [
+            128,
+            128,
+            128,
+            128
+        ],
+        "branch_neurons_combine": [
+            256,
+            256,
+            256,
+            256
+        ],
+        "trunk_neurons": [
+            250,
+            250,
+            250,
+            250
+        ]
+    },
+    "optimizer_params": {
+        "lr": 0.0001,
+        "weight_decay": 1e-07
+    },
+    "lr_scheduler": "MultiStepLR",
+    "lr_scheduler_params": {
+        "milestones": [
+            10000,
+            20000,
+            40000,
+            60000,
+            80000
+        ],
+        "gamma": 0.5
+    },
+    "max_epochs": 100000
+}

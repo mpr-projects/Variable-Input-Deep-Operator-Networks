@@ -1,0 +1,11 @@
+{
+    "functions_file": "functions_fixed_non_uniform_input_grid_output.py",
+    "n_samples": 5000,
+    "seed": 707,
+    "coord_seed": 1010101,
+    "output_file": "test_data_fixed_non_uniform_input_grid_output.hdf5",
+    "n_x_points_input_save": 2601,
+    "n_x_points_output": 51,
+    "n_x_points_sim": 251,
+    "use_thresholding": false
+}

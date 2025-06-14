@@ -1,0 +1,10 @@
+{
+    "functions_file": "functions_fixed_non_uniform.py",
+    "n_samples": 1000,
+    "seed": 505,
+    "coord_seed": 1010101,
+    "output_file": "training_data_fixed_non_uniform.hdf5",
+    "n_x_points_save": 2601,
+    "n_x_points_sim": 251,
+    "use_thresholding": false
+}

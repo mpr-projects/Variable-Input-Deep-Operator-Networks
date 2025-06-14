@@ -1,0 +1,13 @@
+{
+"functions_file": "functions_grid.py",
+"n_samples": 5000,
+"seed": 707,
+"output_file":"test_data_grid.hdf5",
+"domain": [[0, 2], [0, 2]],
+"n_x_points_sim": 76,
+"n_x_points_input": 26,
+"n_x_points_output": 76,
+"n_t_points": 41,
+"eps_domain":[0.13, 0.18],
+"T": 0.05
+}

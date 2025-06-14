@@ -1,0 +1,9 @@
+{
+    "functions_file": "functions_random.py",
+    "n_samples": 1000,
+    "seed": 505,
+    "output_file": "training_data_random_2341_2861.hdf5",
+    "n_x_points_save_range": [2341, 2861],
+    "n_x_points_sim": 251,
+    "use_thresholding": false
+}

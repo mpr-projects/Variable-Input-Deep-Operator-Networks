@@ -1,0 +1,12 @@
+{
+    "functions_file": "functions_random.py",
+    "n_samples": 32,
+    "seed": 202,
+    "output_file": "validation_data_random_676.hdf5",
+    "domain": [[0, 2], [0, 2]],
+    "n_x_points_sim": 76,
+    "n_x_points_save_range": 676,
+    "n_t_points": 21,
+    "eps_domain":[0.13, 0.18],
+    "T": 0.05
+}

@@ -1,0 +1,12 @@
+{
+    "functions_file": "functions_random_perturbed_grid.py",
+    "n_samples": 1000,
+    "seed": 505,
+    "coord_seed": 5050505,
+    "output_file": "training_data_random_perturbed_grid_2341_2861.hdf5",
+    "n_x_points_save_range": [2341, 2861],
+    "n_x_points_sim": 251,
+    "n_x_points_grid": 51,
+    "max_perturbation": 2,
+    "use_thresholding": false
+}

@@ -1,0 +1,13 @@
+{
+    "functions_file": "functions_random_perturbed_grid_input_grid_output.py",
+    "n_samples": 5000,
+    "seed": 709,
+    "coord_seed": 7070709,
+    "output_file": "test_data_random_perturbed_grid_2341_2861_input_grid_output_2.hdf5",
+    "n_x_points_save_range": [2341, 2861],
+    "n_x_points_output": 51,
+    "n_x_points_sim": 251,
+    "n_x_points_grid": 51,
+    "max_perturbation": 2,
+    "use_thresholding": false
+}

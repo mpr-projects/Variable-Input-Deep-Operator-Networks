@@ -1,0 +1,14 @@
+{
+    "functions_file": "functions_random_deleted_grid.py",
+    "n_samples": 1000,
+    "seed": 505,
+    "coord_seed": 5050505,
+    "output_file": "training_data_random_deleted_grid.hdf5",
+    "domain": [[0, 2], [0, 2]],
+    "n_x_points_sim": 76,
+    "n_x_points_grid": 26,
+    "n_x_points_delete_range": [0, 135],
+    "n_t_points": 21,
+    "eps_domain":[0.13, 0.18],
+    "T": 0.05
+}

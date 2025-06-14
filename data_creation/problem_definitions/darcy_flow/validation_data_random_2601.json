@@ -1,0 +1,9 @@
+{
+    "functions_file": "functions_random.py",
+    "n_samples": 32,
+    "seed": 202,
+    "output_file": "validation_data_random_2601.hdf5",
+    "n_x_points_save_range": 2601,
+    "n_x_points_sim": 251,
+    "use_thresholding": false
+}

@@ -1,0 +1,12 @@
+{
+    "functions_file": "functions_random_deleted_grid_input_grid_output.py",
+    "n_samples": 5000,
+    "seed": 710,
+    "coord_seed": 7070710,
+    "output_file": "test_data_random_deleted_grid_input_grid_output_3.hdf5",
+    "n_x_points_delete_range": [0, 520],
+    "n_x_points_sim": 251,
+    "n_x_points_grid": 51,
+    "n_x_points_output": 51,
+    "use_thresholding": false
+}

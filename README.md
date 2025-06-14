@@ -1,6 +1,6 @@
 # Variable-Input DeepONets for Operator Learning
 
-This repository is the official implementation of [Variable-Input DeepONets for Operator Learning](). 
+This repository is the implementation of [Variable-Input DeepONets for Operator Learning](https://arxiv.org/abs/2205.11404). 
 
 
 ## Requirements
